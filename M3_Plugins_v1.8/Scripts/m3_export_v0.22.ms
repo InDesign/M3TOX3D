@@ -1427,7 +1427,7 @@ struct M3E_Ter
 	fn init =
 	(
 		local ter = M3E_Ter()
-		ter.map = M3E_Layr.init
+		ter.map = M3E_Layr.init()
 		
 		return ter
 	)
